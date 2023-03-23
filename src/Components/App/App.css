@@ -5,8 +5,8 @@
 }
 
 .header {
-  background-color: #333;
-  color: #fff;
+  background-color: #333333;
+  color: #068fa1;
   padding: 1rem;
   text-align: center;
 }
@@ -28,7 +28,7 @@
 }
 
 .section {
-  background-color: #eee;
+  background-color: #0f94ac;
   padding: 1rem;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .skill {
-  background-color: #ccc;
+  background-color: #26d4e0;
   padding: 0.5rem;
   border-radius: 0.5rem;
   font-size: 1
