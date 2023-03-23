@@ -15,8 +15,8 @@ function AboutMeBox() {
       {visible && (
         <div className="text">
           <p>
-            Hello, my name is John Doe and I'm a web developer based in New York
-            City. I specialize in building responsive and user-friendly websites
+            Hello, my name is Jack Mahoney and I'm a web developer based in Chicago.
+            I specialize in building responsive and user-friendly websites
             using the latest web technologies.
           </p>
           <button>Download Resume</button>
