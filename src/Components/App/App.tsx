@@ -21,9 +21,6 @@ const App: React.FC = () => (
     <div>
       <h3 style={contentStyle}>3</h3>
     </div>
-    <div>
-      <h3 style={contentStyle}>4</h3>
-    </div>
   </Carousel>
   </div>
 );
