@@ -13,9 +13,7 @@ const contentStyle: React.CSSProperties = {
 
 const App: React.FC = () => (
   <Carousel >
-    <div>
-      <AboutMeBox/>
-    </div>
+    <AboutMeBox/>
     <div>
       <h3 style={contentStyle}>2</h3>
     </div>

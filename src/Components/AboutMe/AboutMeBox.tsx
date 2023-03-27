@@ -1,10 +1,7 @@
 import { useState } from "react";
 import "./AboutMeBox.css";
-import Layout from 'antd/es/layout';
-import { Content } from "antd/es/layout/layout";
-import Space from "antd/es/space";
 
-function AboutMeBox() {
+export const AboutMeBox: React.FC = () => {
   const [visible, setVisible] = useState(false);
 
   function toggleVisibility() {
@@ -12,8 +9,9 @@ function AboutMeBox() {
   }
 
   return (
-    
-          <div className="containerAboutMe">
+          <div style={{  border: '2px solid black', padding: '20px', display: 'flex', justifyContent: 'center',
+            alignItems: 'center', flexDirection: 'column', backgroundColor: '#c613d6', fontFamily: 'Arial, sans-serif',
+            fontSize: '16px', height: '100vh'}}>
             <h1>About Me</h1>
             <img src="my-photo.jpg" alt="My Photo" />
             {visible && (
@@ -32,6 +30,6 @@ function AboutMeBox() {
           </div>
         
   );
-}
+};
 
 export default AboutMeBox;
