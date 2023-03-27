@@ -12,7 +12,8 @@ const contentStyle: React.CSSProperties = {
 };
 
 const App: React.FC = () => (
-  <Carousel >
+  <div style={{overflow: 'hidden'}}>
+  <Carousel style={{height: '100vh'}}>
     <AboutMeBox/>
     <div>
       <h3 style={contentStyle}>2</h3>
@@ -24,6 +25,7 @@ const App: React.FC = () => (
       <h3 style={contentStyle}>4</h3>
     </div>
   </Carousel>
+  </div>
 );
 
 export default App;
