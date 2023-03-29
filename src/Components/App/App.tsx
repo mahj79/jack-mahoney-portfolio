@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import AboutMeBox from '../AboutMe/AboutMeBox';
 import Carousel from 'antd/es/carousel';
+import { Aspirations } from '../Aspirations/Aspirations';
 
 const contentStyle: React.CSSProperties = {
   height: '100vh',
@@ -16,7 +17,7 @@ const App: React.FC = () => (
   <Carousel style={{height: '100vh'}}>
     <AboutMeBox/>
     <div>
-      <h3 style={contentStyle}>2</h3>
+      <Aspirations />
     </div>
     <div>
       <h3 style={contentStyle}>3</h3>

@@ -1,0 +1,16 @@
+.container {
+    width: '100px',
+    padding: '150px'
+}
+
+.AspirationsBox {
+    background: '#f1f1f1',
+    position: 'relative'
+    padding-box:` '20px'
+    padding: '20px', 
+    position: 'relative', 
+    borderRadius: '10px',
+    boxShadow: '0px 0px 10px rgba(0,0,0,0.3)',
+    maxWidth: '500px',
+    margin: '0 auto'
+};

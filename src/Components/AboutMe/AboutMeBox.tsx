@@ -9,11 +9,12 @@ export const AboutMeBox: React.FC = () => {
   }
 
   return (
-          <div style={{  border: '2px solid black', padding: '20px', display: 'flex', justifyContent: 'center',
-            alignItems: 'center', flexDirection: 'column', backgroundColor: '#c613d6', fontFamily: 'Arial, sans-serif',
+        <div style={{backgroundColor: 'navy'}}>
+          <div style={{  border: '2px solid black', padding: '50px', display: 'flex', justifyContent: 'center',
+            alignItems: 'center', flexDirection: 'column', backgroundColor: '#19cc46', fontFamily: 'Arial, sans-serif',
             fontSize: '16px', height: '100vh'}}>
             <h1>About Me</h1>
-            <img src="my-photo.jpg" alt="My Photo" />
+            <img src="HawaiiVolcano.jpg" alt="Me in Hawaii!" />
             {visible && (
               <div className="text">
                 <p>
@@ -28,6 +29,8 @@ export const AboutMeBox: React.FC = () => {
               {visible ? "Hide" : "Show More"}
             </button>
           </div>
+        </div>
+
         
   );
 };
