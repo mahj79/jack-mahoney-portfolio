@@ -13,7 +13,7 @@ export const AboutMeBox: React.FC = () => {
             <h1>About Me</h1>
             <img src="HawaiiVolcano.jpg" alt="Me in Hawaii!" />
             {visible && (
-              <div className="text">
+              <div className="AboutMeBoxText">
                 <p>
                   Hello, my name is Jack Mahoney and I'm a web developer based in Chicago.
                   I specialize in building responsive and user-friendly websites

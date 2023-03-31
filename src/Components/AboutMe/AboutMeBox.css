@@ -21,3 +21,8 @@
     width: 800px;
     vertical-align: middle;
 }
+
+.AboutMeBoxText {
+    justify-content: left;
+    padding: 20px;
+}
