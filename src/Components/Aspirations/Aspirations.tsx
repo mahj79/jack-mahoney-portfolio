@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Aspirations: React.FC = () => {
     return (
-        <div className="container">
+        <div className="AspirationsContainer">
           <div className="AspirationsBox">
             <img src={'HawaiiVolcano.jpg'} alt="Profile" style={{ width: '100px', height: '100px', borderRadius: '50%' }} />
             <h2>Jack Mahoney</h2>
