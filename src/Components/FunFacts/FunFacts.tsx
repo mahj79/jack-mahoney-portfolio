@@ -10,7 +10,8 @@ export const FunFacts: React.FC = () => {
           <div className="FunFactsBox">
             <img src={'HawaiiVolcano.jpg'} alt="Profile" style={{ width: '100px', height: '100px', borderRadius: '50%' }} />
             <h2>Jack Mahoney</h2>
-            <p>I'm trying to become the best programmer I can be!</p>
+            <p>Here are some fun facts about me! 
+                Check out my Spotify API to see some music I'm into!</p>
           </div>
         </div>
       );

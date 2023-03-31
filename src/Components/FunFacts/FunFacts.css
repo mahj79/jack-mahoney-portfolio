@@ -6,16 +6,19 @@
 }
 
 .FunFactsBox {
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
     top: 50%;
-    padding: 0px;
+    padding: 100px;
     display: flex;
     justify-content: center;
     align-items: center; 
     flex-direction: column; 
-    background-color: #19cc46; 
+    background-color: #7b19cc; 
     font-family: Arial, sans-serif;
     font-size: 16px; 
+    color: azure;
+    font-style: italic;
     height: 800px; 
     width: 800px;
     vertical-align: middle;

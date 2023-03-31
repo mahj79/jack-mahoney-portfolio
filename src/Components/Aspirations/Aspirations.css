@@ -8,12 +8,13 @@
 .AspirationsBox {
     border: 2px solid black;
     top: 50%;
+    border-radius: 25px;
     padding: 0px;
     display: flex;
     justify-content: center;
     align-items: center; 
     flex-direction: column; 
-    background-color: #19cc46; 
+    background-color: #19b7cc; 
     font-family: Arial, sans-serif;
     font-size: 16px; 
     height: 800px; 
