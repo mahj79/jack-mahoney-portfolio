@@ -11,7 +11,7 @@ export const AboutMeBox: React.FC = () => {
         <div className='AboutMeContainer'>
           <div className='AboutMeBox'>
             <h1>About Me</h1>
-            <img src="HawaiiVolcano.jpg" alt="Me in Hawaii!" />
+            <img className="AboutMeImage" src="HawaiiVolcano.jpg" alt="Me in Hawaii!" />
             {visible && (
               <div className="AboutMeBoxText">
                 <p>

@@ -6,8 +6,8 @@ import FunFacts from '../FunFacts/FunFacts';
 
 
 const App: React.FC = () => (
-  <div style={{overflow: 'hidden', backgroundColor: 'navy'}}>
-  <Carousel style={{height: '100vh'}}>
+  <div style={{overflow: 'hidden'}}>
+  <Carousel>
     <AboutMeBox/>
     <Aspirations />
     <FunFacts/>

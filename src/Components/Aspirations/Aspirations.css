@@ -9,7 +9,7 @@
     border: 2px solid black;
     top: 50%;
     border-radius: 25px;
-    padding: 0px;
+    padding: 100px;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -20,4 +20,10 @@
     height: 800px; 
     width: 800px;
     vertical-align: middle;
+}
+
+.AspirationsImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
