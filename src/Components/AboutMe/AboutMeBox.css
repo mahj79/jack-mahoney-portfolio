@@ -1,14 +1,19 @@
 .AboutMeContainer {
     background-image: url("Binary-photo.jpg");
     background-color: navy;
-    padding: 100px;
+    padding: 600px;
     justify-content: center;
     display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .AboutMeBox {
     border: 2px solid black;
-    top: 50%;
+    top: 10%;
     border-radius: 25px;
     padding: 100px;
     display: flex;
@@ -18,9 +23,10 @@
     background-color: #19cc46; 
     font-family: Arial, sans-serif;
     font-size: 16px; 
-    height: 800px; 
-    width: 800px;
+    height: 600px; 
+    width: 600px;
     vertical-align: middle;
+    position: absolute;
 }
 
 .AboutMeBoxText {
@@ -32,4 +38,64 @@
     width: 500px;
     height: 500px;
     border-radius: 2%;
+}
+
+.northernTrustContainer {
+    border: 2px solid black;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    position: absolute;
+    background-color: aqua;
+    bottom: 20px;
+    left: 20%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.northernTrustLogo {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+}
+
+.optivContainer {
+    border: 2px solid black;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    position: absolute;
+    background-color: aqua;
+    bottom: 20px;
+    left: 41%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.optivLogo {
+    border-radius: 10%;
+}
+
+.deloitteContainer {
+    border: 2px solid black;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    position: absolute;
+    background-color: aqua;
+    bottom: 20px;
+    right: 20%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.deloitteLogo {
+    align-items: center;
+    position: relative;
 }

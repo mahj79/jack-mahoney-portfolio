@@ -27,21 +27,21 @@ export const AboutMeBox: React.FC = () => {
             </button>
           </div>
 
-          <div className="northernTrustcontainer">
+          <div className="northernTrustContainer">
               <h1>Northern Trust</h1>
-              <img className="northernTrustLogo" alt="Northern Trust Logo"/>
+              <img className="northernTrustLogo" src="ntlogo.png" alt="Northern Trust Logo"/>
           </div>
 
           
-          <div className="optivContainter">
+          <div className="optivContainer">
               <h1>Optiv</h1>
-              <img className="optivLogo" alt="Optiv Logo"/>
+              <img className="optivLogo" src="optivlogo.png" alt="Optiv Logo"/>
           </div>
 
           
           <div className="deloitteContainer">
               <h1>Deloitte</h1>
-              <img className="deloitteLogo" alt="Deloitte Logo"/>
+              <img className="deloitteLogo" src="deloittelogo.png" alt="Deloitte Logo"/>
           </div>
         </div>
 
