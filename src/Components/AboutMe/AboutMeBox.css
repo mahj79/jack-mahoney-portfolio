@@ -35,13 +35,13 @@
 }
 
 .AboutMeImage {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     border-radius: 2%;
 }
 
 .northernTrustContainer {
-    border: 2px solid black;
+    border: 5px solid purple;
     display: flex;
     height: 200px;
     width: 200px;
@@ -53,6 +53,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-radius: 5%;
+}
+
+.northernTrustContainer h1 {
+    color: purple;
 }
 
 .northernTrustLogo {
@@ -62,7 +67,7 @@
 }
 
 .optivContainer {
-    border: 2px solid black;
+    border: 5px solid blue;
     display: flex;
     height: 200px;
     width: 200px;
@@ -74,6 +79,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-radius: 5%;
+}
+
+.optivContainer h1 {
+    color: blue;
 }
 
 .optivLogo {
@@ -81,7 +91,7 @@
 }
 
 .deloitteContainer {
-    border: 2px solid black;
+    border: 5px solid green;
     display: flex;
     height: 200px;
     width: 200px;
@@ -93,6 +103,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-radius: 5%;
+}
+
+.deloitteContainer h1 {
+    color: green;
 }
 
 .deloitteLogo {
