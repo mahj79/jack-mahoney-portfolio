@@ -26,6 +26,23 @@ export const AboutMeBox: React.FC = () => {
               {visible ? "Hide" : "Show More"}
             </button>
           </div>
+
+          <div className="northernTrustcontainer">
+              <h1>Northern Trust</h1>
+              <img className="northernTrustLogo" alt="Northern Trust Logo"/>
+          </div>
+
+          
+          <div className="optivContainter">
+              <h1>Optiv</h1>
+              <img className="optivLogo" alt="Optiv Logo"/>
+          </div>
+
+          
+          <div className="deloitteContainer">
+              <h1>Deloitte</h1>
+              <img className="deloitteLogo" alt="Deloitte Logo"/>
+          </div>
         </div>
 
         
