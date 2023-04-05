@@ -1,10 +1,21 @@
 import { useState } from "react";
+import { isFunctionLike } from "typescript";
 
 export const AboutMeBox: React.FC = () => {
   const [visible, setVisible] = useState(false);
+  const [isFlipped, setIsFlipped] = useState(false);
 
   const toggleVisibility = () => {
     setVisible(!visible);
+  }
+
+  const cardFlip = () => {
+
+
+    const handleClick = () => {
+      setIsFlipped(!isFlipped )
+    }
+    return <div>Hi</div>;
   }
 
   return (
@@ -30,9 +41,8 @@ export const AboutMeBox: React.FC = () => {
           <div className="northernTrustContainer">
               <h1>Northern Trust</h1>
               <img className="northernTrustLogo" src="ntlogo.png" alt="Northern Trust Logo"/>
-          </div>
+          </div> 
 
-          
           <div className="optivContainer">
               <h1>Optiv</h1>
               <img className="optivLogo" src="optivlogo.png" alt="Optiv Logo"/>
