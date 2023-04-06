@@ -1,7 +1,7 @@
 .AboutMeContainer {
     background-image: url("Binary-photo.jpg");
     background-color: navy;
-    padding: 600px;
+    padding: 659px;
     justify-content: center;
     display: flex;
     position: relative;
@@ -40,16 +40,24 @@
     border-radius: 2%;
 }
 
+.JobsGrid {
+    display: flex;
+    position: absolute;
+    bottom: 70px;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0;
+    width: 800px;
+}
+
+
 .northernTrustContainer {
     border: 5px solid purple;
     display: flex;
     height: 200px;
     width: 200px;
     padding: 10px;
-    position: absolute;
     background-color: aqua;
-    bottom: 20px;
-    left: 20%;
     align-items: center;
     justify-content: center;
     flex-direction: column;

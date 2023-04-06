@@ -1,22 +1,13 @@
 import { useState } from "react";
-import { isFunctionLike } from "typescript";
+import { JobsCard } from "./JobsCard";
 
 export const AboutMeBox: React.FC = () => {
   const [visible, setVisible] = useState(false);
-  const [isFlipped, setIsFlipped] = useState(false);
 
   const toggleVisibility = () => {
     setVisible(!visible);
   }
 
-  const cardFlip = () => {
-
-
-    const handleClick = () => {
-      setIsFlipped(!isFlipped )
-    }
-    return <div>Hi</div>;
-  }
 
   return (
         <div className='AboutMeContainer'>
@@ -38,22 +29,13 @@ export const AboutMeBox: React.FC = () => {
             </button>
           </div>
 
-          <div className="northernTrustContainer">
-              <h1>Northern Trust</h1>
-              <img className="northernTrustLogo" src="ntlogo.png" alt="Northern Trust Logo"/>
-          </div> 
-
-          <div className="optivContainer">
-              <h1>Optiv</h1>
-              <img className="optivLogo" src="optivlogo.png" alt="Optiv Logo"/>
+          <div className="JobsGrid">
+            <JobsCard className="NorthernTrustContainer" title="Northern Trust" logo="ntlogo.png" jobInfo="My current Job"></JobsCard>
+            <JobsCard className="OptivContainer" title="Optiv" logo="optivlogo.png" jobInfo="My old Job"></JobsCard>
+            <JobsCard className="OptivContainer" title="Deloitte" logo="deloittelogo.png" jobInfo="My first Job"></JobsCard>
           </div>
 
-          
-          <div className="deloitteContainer">
-              <h1>Deloitte</h1>
-              <img className="deloitteLogo" src="deloittelogo.png" alt="Deloitte Logo"/>
           </div>
-        </div>
 
         
   );
