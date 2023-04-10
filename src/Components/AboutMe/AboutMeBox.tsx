@@ -8,7 +8,6 @@ export const AboutMeBox: React.FC = () => {
     setVisible(!visible);
   }
 
-
   return (
         <div className='AboutMeContainer'>
           <div className='AboutMeBox'>
@@ -28,7 +27,7 @@ export const AboutMeBox: React.FC = () => {
                   If you're interested in learning more about me, hop over to the next page to read about my programming journey.                   
                   
                 </p>
-                <button >Download Resume</button>
+                <a href="Jack Mahoney Resume April 2023.pdf" download>Download Resume</a>
               </div>
             )}
             <button onClick={toggleVisibility}>
