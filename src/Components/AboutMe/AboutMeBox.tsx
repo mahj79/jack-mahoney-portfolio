@@ -20,7 +20,7 @@ export const AboutMeBox: React.FC = () => {
                   Since graduating college in 2018 with a degree in electrical engineering, I've spent my career
                   working in the cybersecurity field! You can see the companies I've had the pleasure of working at up
                   to this point below, give them a click to find out more about each role. 
-
+                  <br />
                   While my focus has been in the cybersecurity space, my real passion is simply sovling complex problems
                   with tech, hence why I built this website! When I'm not working, you can usually find me trying to improve
                   my programming skills or spending time with my friends, girlfriend, or Cleo my french bulldog.
