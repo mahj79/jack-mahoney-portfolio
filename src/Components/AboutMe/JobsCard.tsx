@@ -15,12 +15,12 @@ export const JobsCard: React.FC<JobsCardsProps> = (props) => {
     return (
     <ReactCardFlip isFlipped={isFlipped} containerClassName="northernTrustContainer">
         <div onClick={() => setIsFlipped(!isFlipped)} className={className}>
-              <h1>{title}</h1>
+              <h2>{title}</h2>
               <img className="northernTrustLogo" src={logo} alt={title}/>
         </div>
 
         <div onClick={() => setIsFlipped(!isFlipped)} className={className}>
-            <h1>{jobInfo}</h1>
+            <h2>{jobInfo}</h2>
         </div>
     </ReactCardFlip>
     )
