@@ -21,13 +21,16 @@ export const AboutMeBox: React.FC = () => {
                   working in the cybersecurity field! You can see the companies I've had the pleasure of working at up
                   to this point below, give them a click to find out more about each role. 
                   <br />
-                  While my focus has been in the cybersecurity space, my real passion is simply sovling complex problems
+                  <br />
+                  While my focus has been in the cybersecurity space, my real passion is solving complex problems
                   with tech, hence why I built this website! When I'm not working, you can usually find me trying to improve
                   my programming skills or spending time with my friends, girlfriend, or Cleo my french bulldog.
                   If you're interested in learning more about me, hop over to the next page to read about my programming journey.                   
                   
                 </p>
-                <a href="Jack Mahoney Resume April 2023.pdf" download>Download Resume</a>
+                <button>
+                  <a href="Jack Mahoney Resume April 2023.pdf" download>Download Resume</a>
+                </button>
               </div>
             )}
             <button onClick={toggleVisibility}>

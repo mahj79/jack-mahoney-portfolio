@@ -1,7 +1,7 @@
 .AboutMeContainer {
     background-image: url("Binary-photo.jpg");
     background-color: navy;
-    padding: 659px;
+    padding: 630px;
     justify-content: center;
     display: flex;
     position: relative;
@@ -9,6 +9,7 @@
     left: 0;
     right: 0;
     bottom: 0;
+    margin: auto;
 }
 
 .AboutMeBox {
@@ -69,8 +70,8 @@
 }
 
 .northernTrustLogo {
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 100px;
     border-radius: 10%;
 }
 

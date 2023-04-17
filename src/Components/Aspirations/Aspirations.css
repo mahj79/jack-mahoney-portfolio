@@ -1,6 +1,6 @@
 .AspirationsContainer {
     background-color: navy;
-    padding: 100px;
+    padding: 150px;
     justify-content: center;
     display: flex;
 }
@@ -20,6 +20,11 @@
     height: 800px; 
     width: 800px;
     vertical-align: middle;
+}
+
+.AspirationsBox ul {
+    margin-left: 50px;
+    font-style: italic;
 }
 
 .AspirationsImage {
