@@ -6,7 +6,7 @@ import FunFacts from '../FunFacts/FunFacts';
 
 
 const App: React.FC = () => (
-  <div style={{overflow: 'hidden'}}>
+  <div className="body" style={{overflow: 'hidden'}}>
   <Carousel>
     <AboutMeBox/>
     <Aspirations />
