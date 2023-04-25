@@ -14,10 +14,10 @@ export const AboutMeBox: React.FC = () => {
       response.blob().then(blob => {
         const fileURL = window.URL.createObjectURL(blob);
 
-        let r = document.createElement('r') as HTMLAnchorElement;
-        r.href = fileURL;
-        r.download = 'Jack Mahoney Resume April 2023.pdf';
-        r.click();
+        let link = document.createElement('a');
+        link.href = fileURL;
+        link.download = 'Jack Mahoney Resume April 2023.pdf';
+        link.click();
       })
     })
   }
