@@ -40,13 +40,16 @@ export const AboutMeBox: React.FC = () => {
 
           <div className="JobsGrid">
             <JobsCard className="NorthernTrustContainer" title="Northern Trust" logo="ntlogo.png"
-             jobTitle="Cybersecurity Risk Lead" jobInfo="hello"></JobsCard>
+             jobTitle="Cybersecurity Risk Lead" jobInfo="Responsible for supporting risk mitigation across all infrastructure related technology groups. Analyzed and secured high priority 
+             areas for potential cyber risk, as well as perform advisory oversight to infrastructure operations leading risk mitigation activities."></JobsCard>
 
             <JobsCard className="OptivContainer" title="Optiv" logo="optivlogo.png" 
-            jobTitle="Cybersecurity Senior Consultant" jobInfo="hello"></JobsCard>
+            jobTitle="Cybersecurity Senior Consultant" jobInfo="Improved client's cybersecurity maturity by levarging NIST and ISO 27001 standards, 
+            reducing unnecessary spending, understaning top cyber threats to the network, and securing the Software and Development Lifecycle (SDLC)."></JobsCard>
             
             <JobsCard className="OptivContainer" title="Deloitte" logo="deloittelogo.png" 
-            jobTitle="Cyber Risk Senior Consultant" jobInfo="hello"></JobsCard>
+            jobTitle="Cyber Risk Senior Consultant" jobInfo="Served multiple clients, across various industries in mitigating cybersecurity related risks. 
+            Responsible for assessing data feeds, endpoint detection with security coverage, and implementation for ServiceNow supporting modules."></JobsCard>
           </div>
 
           </div>
