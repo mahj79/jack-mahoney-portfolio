@@ -8,6 +8,20 @@ export const AboutMeBox: React.FC = () => {
     setVisible(!visible);
   }
 
+  const downloadResume = () => {
+   
+    fetch('Jack Mahoney Resume April 2023.pdf').then(response => {
+      response.blob().then(blob => {
+        const fileURL = window.URL.createObjectURL(blob);
+
+        let r = document.createElement('r') as HTMLAnchorElement;
+        r.href = fileURL;
+        r.download = 'Jack Mahoney Resume April 2023.pdf';
+        r.click();
+      })
+    })
+  }
+
   return (
         <div className='AboutMeContainer'>
           <div className='AboutMeBox'>
@@ -28,8 +42,8 @@ export const AboutMeBox: React.FC = () => {
                   If you're interested in learning more about me, hop over to the next page to read about my programming journey.                   
                   
                 </p>
-                <button>
-                  <a href="Jack Mahoney Resume April 2023.pdf" download>Download Resume</a>
+                <button onClick={downloadResume}>
+                  <p>Download Resume</p>
                 </button>
               </div>
             )}
