@@ -39,9 +39,14 @@ export const AboutMeBox: React.FC = () => {
           </div>
 
           <div className="JobsGrid">
-            <JobsCard className="NorthernTrustContainer" title="Northern Trust" logo="ntlogo.png" jobInfo="My current Job"></JobsCard>
-            <JobsCard className="OptivContainer" title="Optiv" logo="optivlogo.png" jobInfo="My old Job"></JobsCard>
-            <JobsCard className="OptivContainer" title="Deloitte" logo="deloittelogo.png" jobInfo="My first Job"></JobsCard>
+            <JobsCard className="NorthernTrustContainer" title="Northern Trust" logo="ntlogo.png"
+             jobTitle="Cybersecurity Risk Lead" jobInfo="hello"></JobsCard>
+
+            <JobsCard className="OptivContainer" title="Optiv" logo="optivlogo.png" 
+            jobTitle="Cybersecurity Senior Consultant" jobInfo="hello"></JobsCard>
+            
+            <JobsCard className="OptivContainer" title="Deloitte" logo="deloittelogo.png" 
+            jobTitle="Cyber Risk Senior Consultant" jobInfo="hello"></JobsCard>
           </div>
 
           </div>

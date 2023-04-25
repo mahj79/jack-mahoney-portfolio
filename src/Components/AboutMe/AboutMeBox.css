@@ -53,7 +53,7 @@
 }
 
 
-.northernTrustContainer {
+.jobsContainer {
     border: 5px solid silver;
     display: flex;
     height: 200px;
@@ -66,13 +66,18 @@
     border-radius: 5%;
 }
 
-.northernTrustContainer h2 {
-    color: Black;
-    font: italics;
+.jobsContainer h2 {
+    color: rgb(0, 0, 0); 
+    font-size: 27px;   
 }
 
-.northernTrustLogo {
-    width: 150px;
-    height: 100px;
-    border-radius: 10%;
+.jobsContainer h3 {
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+}
+
+.jobsLogo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2%;
 }
