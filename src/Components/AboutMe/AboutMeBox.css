@@ -21,13 +21,14 @@
     justify-content: center;
     align-items: center; 
     flex-direction: column; 
-    background-color: #19cc46; 
+    background-color: #0c729b; 
     font-family: Arial, sans-serif;
     font-size: 16px; 
     height: 600px; 
     width: 600px;
     vertical-align: middle;
     position: absolute;
+    opacity: 0.98;
 }
 
 .AboutMeBoxText {
@@ -53,12 +54,12 @@
 
 
 .northernTrustContainer {
-    border: 5px solid purple;
+    border: 5px solid silver;
     display: flex;
     height: 200px;
     width: 200px;
     padding: 10px;
-    background-color: aqua;
+    background-color: darkgray;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -66,60 +67,12 @@
 }
 
 .northernTrustContainer h2 {
-    color: purple;
+    color: Black;
+    font: italics;
 }
 
 .northernTrustLogo {
     width: 150px;
     height: 100px;
     border-radius: 10%;
-}
-
-.optivContainer {
-    border: 5px solid blue;
-    display: flex;
-    height: 200px;
-    width: 200px;
-    padding: 10px;
-    position: absolute;
-    background-color: aqua;
-    bottom: 20px;
-    left: 41%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 5%;
-}
-
-.optivContainer h1 {
-    color: blue;
-}
-
-.optivLogo {
-    border-radius: 10%;
-}
-
-.deloitteContainer {
-    border: 5px solid green;
-    display: flex;
-    height: 200px;
-    width: 200px;
-    padding: 10px;
-    position: absolute;
-    background-color: aqua;
-    bottom: 20px;
-    right: 20%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 5%;
-}
-
-.deloitteContainer h1 {
-    color: green;
-}
-
-.deloitteLogo {
-    align-items: center;
-    position: relative;
 }
