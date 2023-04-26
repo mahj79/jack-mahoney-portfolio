@@ -16,7 +16,7 @@ export const JobsCard: React.FC<JobsCardsProps> = (props) => {
     return (
     <ReactCardFlip isFlipped={isFlipped} containerClassName="jobsContainer">
         <div onClick={() => setIsFlipped(!isFlipped)} className={className}>
-              <h2>{title}</h2>
+              {/* <h2>{title}</h2> */}
               <img className="jobsLogo" src={logo} alt={title}/>
         </div>
 

@@ -72,12 +72,12 @@ button:hover {
 
 
 .jobsContainer {
-    border: 5px solid silver;
+    border: 5px solid black;
     display: flex;
     height: 200px;
     width: 200px;
     padding: 10px;
-    background-color: darkgray;
+    background-color: white;
     align-items: center;
     justify-content: center;
     flex-direction: column;

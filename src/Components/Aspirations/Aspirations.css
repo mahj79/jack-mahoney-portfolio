@@ -1,4 +1,5 @@
 .AspirationsContainer {
+    background-image: url("HawaiiVolcano.jpg");
     background-color: navy;
     padding: 150px;
     justify-content: center;
@@ -20,6 +21,7 @@
     height: 800px; 
     width: 800px;
     vertical-align: middle;
+    opacity: 100%;
 }
 
 .AspirationsBox ul {
