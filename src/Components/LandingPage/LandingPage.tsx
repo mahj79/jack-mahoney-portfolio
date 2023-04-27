@@ -1,11 +1,13 @@
 import React from 'react';
-import {useState} from 'react';
 
 export const LandingPage: React.FC = () => {
-    const [visible, setVisible] = useState(false);
 
-    return(
-        <h1>Hello!</h1>
+return (
+    <div className="landingPageContainer">
+        <div className="landingPageBox">
+            <h1>Hello!</h1>
+        </div>
+    </div>
     );
 }
 

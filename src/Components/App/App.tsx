@@ -3,15 +3,17 @@ import AboutMeBox from '../AboutMe/AboutMeBox';
 import Carousel from 'antd/es/carousel';
 import Aspirations from '../Aspirations/Aspirations';
 import FunFacts from '../FunFacts/FunFacts';
-
+import LandingPage from '../LandingPage/LandingPage';
 
 const App: React.FC = () => (
+  
   <div className="body" style={{overflow: 'hidden'}}>
-  <Carousel>
-    <AboutMeBox/>
-    <Aspirations />
-    <FunFacts/>
-  </Carousel>
+    <Carousel>
+      <LandingPage/>
+      <AboutMeBox/>
+      <Aspirations/>
+      <FunFacts/>
+    </Carousel>
   </div>
 );
 

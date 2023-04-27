@@ -1,0 +1,18 @@
+.landingPageContainer {
+    background-image: url("HawaiiVolcano.jpg");
+    padding: 630px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+.landingPageContainer h1 {
+    font-size: 32px;
+    margin: 0;
+    color: white;
+  }
