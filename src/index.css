@@ -2,6 +2,7 @@
 @import './Components/AboutMe/AboutMeBox.css';
 @import './Components/App/App.css';
 @import './Components/FunFacts/FunFacts.css';
+@import './Components/LandingPage/LandingPage.css';
 
 body {
   margin: 0;
