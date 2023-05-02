@@ -42,12 +42,12 @@ export const AboutMeBox: React.FC = () => {
                   If you're interested in learning more about me, hop over to the next page to read about my programming journey.                   
                   
                 </p>
-                <button onClick={downloadResume}>
+                <button className="AboutMeButton" onClick={downloadResume}>
                   <p>Download Resume</p>
                 </button>
               </div>
             )}
-            <button onClick={toggleVisibility}>
+            <button className="AboutMeButton" onClick={toggleVisibility}>
               {visible ? "Hide" : "Learn About Me!"}
             </button>
           </div>

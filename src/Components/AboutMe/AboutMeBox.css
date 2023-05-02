@@ -31,7 +31,7 @@
     opacity: 0.98;
 }
 
-button {
+.AboutMeButton {
     background-color: darkblue;
     border: none;
     font-weight: bold;
@@ -45,7 +45,7 @@ button {
     cursor: pointer;
   }
   
-button:hover {
+.AboutMeButton:hover {
     background-color: hotpink;
   }
 
