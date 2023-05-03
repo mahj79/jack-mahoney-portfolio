@@ -5,16 +5,14 @@ import Aspirations from '../Aspirations/Aspirations';
 import FunFacts from '../FunFacts/FunFacts';
 import LandingPage from '../LandingPage/LandingPage';
 
-
 const App: React.FC = () =>  {
   
-const slider = useRef<CarouselRef | null>()
-
+const slider = useRef<CarouselRef>(null)
   
 return(  
   <div className="body" style={{overflow: 'hidden'}}>
-    <Carousel ref={slide => slider.current=slide}>
-      {slider.current && <LandingPage slider={slider.current}/>}
+    <Carousel ref={slider} draggable accessibility>
+      <LandingPage slider={slider}/>
       <AboutMeBox/>
       <Aspirations/>
       <FunFacts/>
