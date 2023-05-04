@@ -1,6 +1,7 @@
 .AboutMeContainer {
-    background-image: url("Binary-photo.jpg");
-    background-color: navy;
+    background-image: url("Oak\ Street\ Beach.jpg");
+    background-attachment: fixed;
+    background-position: center;
     padding: 630px;
     justify-content: center;
     display: flex;
@@ -16,15 +17,15 @@
     border: 2px solid black;
     top: 10%;
     border-radius: 25px;
-    padding: 100px;
+    padding: 75px;
     display: flex;
     justify-content: center;
     align-items: center; 
     flex-direction: column; 
-    background-color: #0c729b; 
+    background-color: whitesmoke; 
     font-family: Arial, sans-serif;
     font-size: 16px; 
-    height: 600px; 
+    height: 660px; 
     width: 600px;
     vertical-align: middle;
     position: absolute;
@@ -36,7 +37,7 @@
     border: none;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    padding: 15px 20px;
+    padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -55,7 +56,7 @@
 }
 
 .AboutMeImage {
-    width: 60%;
+    width: 50%;
     height: auto;
     border-radius: 2%;
 }
@@ -63,7 +64,7 @@
 .JobsGrid {
     display: flex;
     position: absolute;
-    bottom: 70px;
+    bottom: 50px;
     justify-content: space-between;
     padding: 10px;
     margin: 0;
@@ -74,12 +75,12 @@
 .jobsContainer {
     border: 5px solid black;
     display: flex;
-    height: 200px;
+    height: 220px;
     width: 200px;
     padding: 10px;
     background-color: white;
     align-items: center;
-    justify-content: center;
+    justify-content: top;
     flex-direction: column;
     border-radius: 5%;
 }
@@ -91,6 +92,7 @@
 
 .jobsContainer h3 {
     font-size: 16px;
+    vertical-align: text-top;
     color:rgb(0, 0, 0);
 }
 
