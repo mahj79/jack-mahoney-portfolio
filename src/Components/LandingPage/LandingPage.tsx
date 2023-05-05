@@ -1,5 +1,6 @@
 import { CarouselRef } from 'antd/es/carousel';
 import React from 'react';
+import Typewriter from 'typewriter-effect';
 
 export interface LandingPageProps {
     slider: React.RefObject<CarouselRef>;
@@ -8,6 +9,10 @@ export interface LandingPageProps {
 export const LandingPage: React.FC<LandingPageProps> = (props) => {
 
 const {slider} = props;
+
+const app = document.getElementById('app');
+
+
 
 return (
     <div>
@@ -19,7 +24,20 @@ return (
         
         <div className="landingPageContainer">
             <div className="landingPageBox">
-                <h1>Hello!</h1>
+                <h1>
+                    {<Typewriter onInit={(typewriter) => {
+                    typewriter.typeString('Hello!').callFunction(() => {
+                        console.log('Welcome!');
+                    })
+                    .pauseFor(25)
+                    .deleteAll()
+                    .callFunction(() => {
+                        console.log('All strings were deleted');
+                    })
+                    typewriter.typeString(`Welcome to Jack Mahoney's website!`)
+                    .start();
+                    }}/>}
+                </h1>
             </div>
         </div>
     </div>

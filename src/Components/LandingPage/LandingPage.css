@@ -24,20 +24,17 @@
     margin: auto;
   }
 
-  /* .landingPageContainer {
-    background-image: url("HawaiiVolcano.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    justify-content: center;
-    display: flex;
-    height: auto;
-  } */
 
 .landingPageContainer h1 {
     font-size: 32px;
-    margin: 0;
     color: white;
+    width: 600px;
+    justify-content: center;
+    display: flex;
+    bottom: 100px;
+    position: relative;
   }
+
+
 
   
