@@ -10,10 +10,6 @@ export const LandingPage: React.FC<LandingPageProps> = (props) => {
 
 const {slider} = props;
 
-const app = document.getElementById('app');
-
-
-
 return (
     <div>
         <header className="header">
@@ -25,16 +21,19 @@ return (
         <div className="landingPageContainer">
             <div className="landingPageBox">
                 <h1>
-                    {<Typewriter onInit={(typewriter) => {
+                    {<Typewriter options={{loop: true}} onInit={(typewriter) => {
                     typewriter.typeString('Hello!').callFunction(() => {
                         console.log('Welcome!');
                     })
-                    .pauseFor(25)
+                    .pauseFor(2500)
                     .deleteAll()
                     .callFunction(() => {
                         console.log('All strings were deleted');
                     })
-                    typewriter.typeString(`Welcome to Jack Mahoney's website!`)
+                    typewriter.typeString(`Welcome to Jack Mahoney's Website!`).callFunction(() => {
+                        console.log('Printed message number 2');
+                    })
+                    .pauseFor(2500)
                     .start();
                     }}/>}
                 </h1>
