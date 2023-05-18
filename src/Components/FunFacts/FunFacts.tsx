@@ -22,6 +22,7 @@ export const FunFacts: React.FC = () => {
             <p>Here are some fun facts about me! 
                 Check out my Spotify API to see some music I'm into!</p>
           </div>
+
           <div className="PlaylistContainer">
             <h2>Spotify Playlist</h2>
             <p>{playlist?.tracks.href}</p>
