@@ -15,7 +15,7 @@ return(
       <LandingPage slider={slider}/>
       <AboutMeBox/>
       <Aspirations/>
-      <FunFacts/>
+      <FunFacts slider={slider}/>
     </Carousel>
   </div>
 );
