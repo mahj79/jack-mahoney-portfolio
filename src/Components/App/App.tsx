@@ -13,8 +13,8 @@ return(
   <div className="body" style={{overflow: 'hidden'}}>
     <Carousel ref={slider} draggable accessibility>
       <LandingPage slider={slider}/>
-      <AboutMeBox/>
-      <Aspirations/>
+      <AboutMeBox slider={slider}/>
+      <Aspirations slider={slider}/>
       <FunFacts slider={slider}/>
     </Carousel>
   </div>

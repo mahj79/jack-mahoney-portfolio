@@ -1,12 +1,20 @@
 import { useState } from "react";
 import { JobsCard } from "./JobsCard";
+import slider from "antd/es/slider";
+import { CarouselRef } from "antd/es/carousel";
 
-export const AboutMeBox: React.FC = () => {
+export interface LandingPageProps {
+  slider: React.RefObject<CarouselRef>;
+}
+
+export const AboutMeBox: React.FC<LandingPageProps> = (props) => {
   const [visible, setVisible] = useState(false);
 
   const toggleVisibility = () => {
     setVisible(!visible);
   }
+
+  const {slider} = props;
 
   const downloadResume = () => {
    
@@ -23,6 +31,14 @@ export const AboutMeBox: React.FC = () => {
   }
 
   return (
+    <div>
+
+          <header className='header'>
+            <h4 onClick={() => slider.current?.goTo(1)}>About Me</h4>            
+            <h4 onClick={() => slider.current?.goTo(2)}>Programming </h4>
+            <h4 onClick={() => slider.current?.goTo(3)}>Fun Facts!</h4>
+          </header>
+
         <div className='AboutMeContainer'>
           <div className='AboutMeBox'>
             <h1>About Me (Work in Progress)</h1>
@@ -68,7 +84,7 @@ export const AboutMeBox: React.FC = () => {
 
           </div>
 
-        
+      </div>  
   );
 };
 
