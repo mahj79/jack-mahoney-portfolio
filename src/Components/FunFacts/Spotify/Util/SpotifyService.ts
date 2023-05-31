@@ -8,7 +8,9 @@ export const SpotifyService = {
     getAccessToken: () => {
         const accessToken = localStorage.getItem('SpotifyAccessToken');
         console.log(accessToken);
-        if(accessToken !== '' || accessToken !== null) {
+        console.log(accessToken !== '');
+        console.log(accessToken !== null);
+        if(accessToken !== '' && accessToken !== null) {
             return accessToken;
         }
         
@@ -48,7 +50,9 @@ export const SpotifyService = {
         {
             headers: {Authorization: `Bearer ${accessToken}`}
         });
-        const playlists = await response.json() as {items: IPlaylist[]}
-        return playlists.items.find(p => p.name === `Jack's Jams`);
+        const playlist = await response.json() as IPlaylist
+        console.log(accessToken);
+        console.log(response);
+        return playlist;
     }
 }

@@ -21,6 +21,7 @@
 
 .landingPageContainer {
     background-image: url("HawaiiVolcano.jpg");
+    background-size: cover;
     padding: 570px;
     justify-content: center;
     display: flex;
@@ -39,7 +40,7 @@
     width: 600px;
     justify-content: center;
     display: flex;
-    bottom: 100px;
+    bottom: 150px;
     position: relative;
   }
 

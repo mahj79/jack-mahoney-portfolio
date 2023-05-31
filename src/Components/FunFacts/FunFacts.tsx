@@ -16,7 +16,9 @@ export const FunFacts: React.FC<LandingPageProps> = (props) => {
   useEffect(() => {
     if (playlist) return;  
       const fetchData = async () => {
-        setPlaylist(await SpotifyService.getPlaylist());
+        const jacksJams = await SpotifyService.getJacksJams()
+        console.log(jacksJams);
+        setPlaylist(jacksJams);
       }
       fetchData();   
    }, [playlist])
@@ -41,7 +43,9 @@ export const FunFacts: React.FC<LandingPageProps> = (props) => {
 
             <div className="PlaylistContainer">
               <h2>Spotify Playlist</h2>
-              <p>{playlist?.tracks.href}</p>
+              {playlist?.items.map(item => {
+                return <a href={item.track.album.images[0].url}>{item.track.name} by {item.track.artists.map(a => a.name).join(', ')}</a> 
+              })}
             </div>
           </div>
         
