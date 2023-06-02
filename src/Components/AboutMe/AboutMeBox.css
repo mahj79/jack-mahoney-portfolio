@@ -2,7 +2,7 @@
     background-image: url("Oak\ Street\ Beach.jpg");
     background-attachment: fixed;
     background-position: center;
-    padding: 630px;
+    padding: 625px;
     justify-content: center;
     display: flex;
     position: relative;
@@ -14,7 +14,7 @@
 }
 
 .AboutMeBox {
-    border: 2px solid black;
+    border: 3px solid black;
     top: 10%;
     border-radius: 25px;
     padding: 75px;
@@ -64,7 +64,7 @@
 .JobsGrid {
     display: flex;
     position: absolute;
-    bottom: 50px;
+    bottom: 10px;
     justify-content: space-between;
     padding: 10px;
     margin: 0;
