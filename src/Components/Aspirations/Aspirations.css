@@ -1,8 +1,15 @@
 .AspirationsContainer {
-    background-color: navy;
-    padding: 150px;
+    background-image: url("Chicago\ View\ Str.jpg");
+    background-size: cover;
+    padding: 120px;
     justify-content: center;
     display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 .AspirationsBox {
@@ -20,7 +27,7 @@
     height: 800px; 
     width: 800px;
     vertical-align: middle;
-    opacity: 100%;
+    opacity: 95%;
 }
 
 .AspirationsBox ul {
