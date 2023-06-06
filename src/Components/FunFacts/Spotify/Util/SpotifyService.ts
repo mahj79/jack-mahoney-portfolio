@@ -7,9 +7,6 @@ const redirect_uri = 'http://localhost:3000/';
 export const SpotifyService = {
     getAccessToken: () => {
         const accessToken = localStorage.getItem('SpotifyAccessToken');
-        console.log(accessToken);
-        console.log(accessToken !== '');
-        console.log(accessToken !== null);
         if(accessToken !== '' && accessToken !== null) {
             return accessToken;
         }
@@ -51,8 +48,6 @@ export const SpotifyService = {
             headers: {Authorization: `Bearer ${accessToken}`}
         });
         const playlist = await response.json() as IPlaylist
-        console.log(accessToken);
-        console.log(response);
         return playlist;
     }
 }
