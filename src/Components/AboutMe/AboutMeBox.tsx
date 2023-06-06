@@ -42,7 +42,7 @@ export const AboutMeBox: React.FC<LandingPageProps> = (props) => {
 
         <div className='AboutMeContainer'>
           <div className='AboutMeBox'>
-            <h1>About Me (Work in Progress)</h1>
+            <h1>About Me</h1>
             <img className="AboutMeImage" src="HawaiiVolcano.jpg" alt="Me in Hawaii!" />
             {visible && (
               <div className="AboutMeBoxText">

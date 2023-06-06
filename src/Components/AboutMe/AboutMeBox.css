@@ -1,5 +1,5 @@
 .AboutMeContainer {
-    background-image: url("Oak\ Street\ Beach.jpg");
+    background-image: url("Brady\ Photo\ no1.PNG");
     background-attachment: fixed;
     background-position: center;
     padding: 625px;
@@ -85,6 +85,10 @@
     border-radius: 5%;
 }
 
+.jobsContainer :hover {
+    cursor: pointer;
+}
+
 .jobsContainer h2 {
     color: rgb(0, 0, 0); 
     font-size: 27px;   
@@ -103,7 +107,8 @@
 .jobsLogo {
     max-width: 100%;
     height: auto;
-    border-radius: 2%;
+    border-radius: 5%;
+    
 }
 
 .header {

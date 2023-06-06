@@ -42,7 +42,7 @@ export const FunFacts: React.FC<LandingPageProps> = (props) => {
             </div>
 
             <div className="PlaylistContainer">
-              <h2>Spotify Playlist</h2>
+              <h2>Jack's Jams</h2>
               {playlist?.items.map(item => {
                 return <a href={item.track.album.images[0].url}>{item.track.name} by {item.track.artists.map(a => a.name).join(', ')}</a> 
               })}
