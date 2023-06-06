@@ -20,7 +20,7 @@
 }
 
 .landingPageContainer {
-    background-image: url("HawaiiVolcano.jpg");
+    background-image: url("HawaiiVolcano Cropped.jpg");
     background-size: cover;
     padding: 600px;
     justify-content: center;
@@ -40,7 +40,7 @@
     width: 600px;
     justify-content: center;
     display: flex;
-    bottom: 150px;
+    bottom: 430px;
     position: relative;
   }
 

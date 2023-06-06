@@ -22,8 +22,8 @@
     justify-content: center;
     align-items: center; 
     flex-direction: column; 
-    background-color: whitesmoke; 
-    font-family: Arial, sans-serif;
+    background-color: lemonchiffon; 
+    font-family: Tisa, sans-serif;
     font-size: 16px; 
     height: 660px; 
     width: 600px;
@@ -59,6 +59,7 @@
     width: 50%;
     height: auto;
     border-radius: 2%;
+    border: 3px solid black;
 }
 
 .JobsGrid {

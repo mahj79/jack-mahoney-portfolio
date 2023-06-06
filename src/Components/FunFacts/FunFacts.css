@@ -3,7 +3,6 @@
     background-attachment: fixed;
     background-position: center;
     padding: 120px;
-    justify-content: space-between;
     display: flex;
     position: relative;
     top: 0;
@@ -11,13 +10,13 @@
     right: 0;
     bottom: 0;
     margin: auto;
+    justify-content: center;
 }
 
 .FunFactsBox {
     border: 2px solid rgb(0, 0, 0);
     border-radius: 25px;
-    top: 50%;
-    padding: 100px;
+    padding: 0px;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -27,9 +26,16 @@
     font-size: 16px; 
     color: azure;
     font-style: italic;
-    height: 800px; 
-    width: 800px;
+    height: 1000px; 
+    width: 500px;
     vertical-align: middle;
+    margin-right: 50px;
+}
+
+
+.FunFactsBox p {
+    padding: 10px;
+    font-size: 16px;
 }
 
 .FunFactsImage {
@@ -47,18 +53,18 @@
     width: 500px;
     color: peru;
     background-color: aquamarine;
-    opacity: .85;
+    opacity: .88;
     border-radius: 25px;
-    
+    text-align: center;   
 }
 
  .PlaylistContainer h2 {
     margin-bottom: .22rem;
     color: peru;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
     padding: 5px;
-    max-width: fit-content;
+    max-width: 100%;
   }
   
 .PlaylistContainer a {
@@ -68,7 +74,7 @@
     font-size: 20px;
     font-weight: bold;
     font-style: italic;
-    max-width: fit-content;
+    max-width: 100%;
   }
 
 .header {
