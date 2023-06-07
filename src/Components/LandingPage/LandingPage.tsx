@@ -22,17 +22,11 @@ return (
             <div className="landingPageBox">
                 <h1>
                     {<Typewriter options={{loop: true}} onInit={(typewriter) => {
-                    typewriter.typeString('Hello!').callFunction(() => {
-                        console.log('Welcome!');
-                    })
+                    typewriter.typeString('Hello!').callFunction(() => {})
                     .pauseFor(2500)
                     .deleteAll()
-                    .callFunction(() => {
-                        console.log('All strings were deleted');
-                    })
-                    typewriter.typeString(`Welcome to Jack Mahoney's Website!`).callFunction(() => {
-                        console.log('Printed message number 2');
-                    })
+                    .callFunction(() => {})
+                    typewriter.typeString(`Welcome to Jack Mahoney's Website!`).callFunction(() => {})
                     .pauseFor(2500)
                     .start();
                     }}/>}

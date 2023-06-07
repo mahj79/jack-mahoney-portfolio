@@ -35,8 +35,8 @@ export const FunFacts: React.FC<LandingPageProps> = (props) => {
           
           <div className="FunFactsContainer">
             <div className="FunFactsBox">
-              <img className="FunFactsImage" src={'HawaiiVolcano.jpg'} alt="Profile" />
-              <h2>Jack Mahoney</h2>
+              <img className="FunFactsImage" src="Cleo Party (2).jpg" alt="Profile" />
+              <h2>Fun Facts</h2>
               <p>Here are some fun facts about me! 
                   Check out my Spotify API to see some music I'm into!</p>
             </div>

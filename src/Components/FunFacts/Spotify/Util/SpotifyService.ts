@@ -14,7 +14,6 @@ export const SpotifyService = {
         // check for access token match
         const accessTokenMatch = window.location.href.match(/access_token=([^&]*)/);
         const expiresInMatch = window.location.href.match(/expires_in=([^&]*)/);
-        console.log(expiresInMatch);
 
         if(accessTokenMatch && expiresInMatch) {
             localStorage.setItem('SpotifyAccessToken', accessTokenMatch[1]);
@@ -47,7 +46,7 @@ export const SpotifyService = {
         {
             headers: {Authorization: `Bearer ${accessToken}`}
         });
-        const playlist = await response.json() as IPlaylist
+        const playlist = await response.json() as IPlaylist;
         return playlist;
     }
 }
