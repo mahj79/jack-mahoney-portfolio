@@ -23,7 +23,7 @@
     align-items: center; 
     flex-direction: column; 
     background-color: lemonchiffon; 
-    font-family: Tisa, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px; 
     height: 660px; 
     width: 600px;
@@ -52,7 +52,7 @@
 
 .AboutMeBoxText {
     justify-content: left;
-    padding: 20px;
+    padding: 5px;
 }
 
 .AboutMeImage {

@@ -22,7 +22,7 @@
     align-items: center; 
     flex-direction: column; 
     background-color: #7b19cc; 
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px; 
     color: azure;
     font-style: italic;
@@ -39,8 +39,8 @@
 }
 
 .FunFactsImage {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 20%;
 }
 

@@ -23,8 +23,8 @@ export const Aspirations: React.FC<LandingPageProps> = (props) => {
 
         <div className="AspirationsContainer">
           <div className="AspirationsBox">
-            <img className="AspirationsImage" src="Banff Headshot.jpg" alt="Me in Banff"/>
-            <h2>Jack Mahoney</h2>
+            <img className="AspirationsImage" src="Banff Headshot (2).jpg" alt="Me in Banff"/>
+            <h2>Why I Code!</h2>
             <p>The first time I got in to programming was during my second year of college
               where I was required to take a computer science class to learn C. If you are familiar
               with C, then you may understand why I wanted nothing to do with programming

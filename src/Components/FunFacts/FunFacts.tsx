@@ -17,7 +17,6 @@ export const FunFacts: React.FC<LandingPageProps> = (props) => {
     if (playlist) return;  
       const fetchData = async () => {
         const jacksJams = await SpotifyService.getJacksJams()
-        console.log(jacksJams);
         setPlaylist(jacksJams);
       }
       fetchData();   
@@ -35,10 +34,30 @@ export const FunFacts: React.FC<LandingPageProps> = (props) => {
           
           <div className="FunFactsContainer">
             <div className="FunFactsBox">
-              <img className="FunFactsImage" src="Cleo Party (2).jpg" alt="Profile" />
+              <img className="FunFactsImage" src="Cleo Party (2).jpg" alt="Cleo and I at a french bulldog ugly Christmas party" />
               <h2>Fun Facts</h2>
-              <p>Here are some fun facts about me! 
-                  Check out my Spotify API to see some music I'm into!</p>
+              <p>Here are some fun facts about me! Also check out my Spotify API to see one of my playlists!</p>
+              <ul>
+                <li>I love color, especially ones that pop like my favorite color purple!</li>
+                <br></br>
+                <li>I was the first person in my family to graduate from college with a degree.</li>
+                <br></br>
+                <li>When I was in middle school my Dad, brother, and myself started a Lawn Business that 
+                  still operates today.
+                </li>
+                <br></br>
+                <li>I used to play the saxaphone which is why I love jazz music.</li>
+                <br></br>
+                <li>I've lived in Chicago since the end of 2018, but for the first 8 months I slept on 
+                  a couch!
+                </li>
+                <br></br>
+                <li>I'm an avid Detroit sports fan.</li>
+                <br></br>
+                <li>Procurer of many memes</li>
+                <br></br>
+                <li>Every single photo used on this website was taken by one of my friends!</li>
+              </ul>
             </div>
 
             <div className="PlaylistContainer">
