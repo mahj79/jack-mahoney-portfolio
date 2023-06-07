@@ -25,7 +25,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 16px; 
     color: azure;
-    font-style: italic;
+    opacity: .95;
     height: 1000px; 
     width: 500px;
     vertical-align: middle;
