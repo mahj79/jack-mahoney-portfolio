@@ -1,7 +1,7 @@
 import { IPlaylist } from "../Data/IPlaylist";
 
 const client_id = 'f8ad907eba73435cab1eac252174520e';
-const redirect_uri = 'http://localhost:3000/';
+const redirect_uri = 'http://jack-mahoney.com/';
 
 
 export const SpotifyService = {
