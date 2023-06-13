@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { SpotifyService } from './Spotify/Util/SpotifyService';
 import { IPlaylist } from './Spotify/Data/IPlaylist';
+import slider from 'antd/es/slider';
 import { CarouselRef } from 'antd/es/carousel';
 
 export interface LandingPageProps {
@@ -53,7 +54,7 @@ export const FunFacts: React.FC<LandingPageProps> = (props) => {
                 <br></br>
                 <li>I'm an avid Detroit sports fan.</li>
                 <br></br>
-                <li>Procurer of many memes.</li>
+                <li>Procurer of many memes</li>
                 <br></br>
                 <li>Every single photo used on this website was taken by one of my friends!</li>
               </ul>
