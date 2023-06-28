@@ -24,7 +24,7 @@ export const AboutMeBox: React.FC<LandingPageProps> = (props) => {
 
         let link = document.createElement('a');
         link.href = fileURL;
-        link.download = 'Jack Mahoney Resume April 2023.pdf';
+        link.download = 'Jack Mahoney Resume 2023.pdf';
         link.click();
       })
     })
