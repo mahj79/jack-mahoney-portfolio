@@ -18,7 +18,7 @@ export const AboutMeBox: React.FC<LandingPageProps> = (props) => {
 
   const downloadResume = () => {
    
-    fetch('Jack Mahoney Resume April 2023.pdf').then(response => {
+    fetch('Jack Mahoney Resume 2023.pdf').then(response => {
       response.blob().then(blob => {
         const fileURL = window.URL.createObjectURL(blob);
 
