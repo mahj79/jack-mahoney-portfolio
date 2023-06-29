@@ -1,11 +1,10 @@
 import { IPlaylist } from "../Data/IPlaylist";
 
 const client_id = 'fa30229f18eb4893a8a7b21a1eff89fc';
-const redirect_uri = 'http://jack-mahoney.com';
-
+const client_secret = process.env.CLIENT_SECRET;
 
 export const SpotifyService = {
-    getAccessToken: () => {
+    getAccessToken: async () => {
         const accessToken = localStorage.getItem('SpotifyAccessToken');
         if(accessToken !== '' && accessToken !== null) {
             return accessToken;
@@ -24,13 +23,31 @@ export const SpotifyService = {
             return accessTokenMatch[1];
         }
         else {
-            const accessUrl = `https://accounts.spotify.com/authorize?client_id=${client_id}&response_type=token&scope=playlist-modify-public&redirect_uri=${redirect_uri}`;
-            window.location.href = accessUrl;
+            var urlencoded = new URLSearchParams();
+            urlencoded.append('grant_type', 'client_credentials');
+            var authOptions = {
+                method: 'POST',
+                headers: {
+                  'Authorization': 'Basic ' + btoa(client_id + ':' + client_secret),
+                  'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: urlencoded
+              };
+              
+              const response = await fetch('https://accounts.spotify.com/api/token', authOptions);
+              if(response.status !== 200) {
+                return;
+              }
+              
+              const body = await response.json() as {access_token: string}
+              localStorage.setItem('SpotifyAccessToken', body.access_token);
+              return body.access_token;
+            
         }
     },
 
     getPlaylist: async () => {
-        const accessToken = SpotifyService.getAccessToken();
+        const accessToken = await SpotifyService.getAccessToken();
         const response = await fetch(`https://api.spotify.com/v1/users/22lrbuvgjlng2i73ylvffudnq/playlists`, 
         {
             headers: {Authorization: `Bearer ${accessToken}`}
@@ -41,7 +58,7 @@ export const SpotifyService = {
     },
 
     getJacksJams: async () => {
-        const accessToken = SpotifyService.getAccessToken();
+        const accessToken = await SpotifyService.getAccessToken();
         const response = await fetch(`https://api.spotify.com/v1/playlists/5DB4G5PjPedbYhP0WhUxSN/tracks`, 
         {
             headers: {Authorization: `Bearer ${accessToken}`}
