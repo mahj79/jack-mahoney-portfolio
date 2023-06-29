@@ -23,7 +23,6 @@ export const SpotifyService = {
             return accessTokenMatch[1];
         }
         else {
-            console.log(client_secret);
             var urlencoded = new URLSearchParams();
             urlencoded.append('grant_type', 'client_credentials');
             var authOptions = {
