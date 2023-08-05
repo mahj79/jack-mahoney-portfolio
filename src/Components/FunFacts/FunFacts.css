@@ -2,7 +2,7 @@
     background-image: url("Brady\ Photo\ no2.PNG");
     background-attachment: fixed;
     background-position: center;
-    padding: 120px;
+    padding: 9rem;
     display: flex;
     position: relative;
     top: 0;
@@ -14,47 +14,47 @@
 }
 
 .FunFactsBox {
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 25px;
-    padding: 0px;
+    border: .2rem solid rgb(0, 0, 0);
+    border-radius: 2rem;
+    padding: .2rem;
     display: flex;
     justify-content: center;
     align-items: center; 
     flex-direction: column; 
     background-color: #7b19cc; 
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px; 
+    font-size: 1rem; 
     color: azure;
     opacity: .95;
-    height: 1000px; 
-    width: 500px;
+    height: 62rem; 
+    width: 30rem;
     vertical-align: middle;
-    margin-right: 50px;
+    margin-right: 5rem;
 }
 
 
 .FunFactsBox p {
-    padding: 10px;
-    font-size: 16px;
+    padding: 1.1rem;
+    font-size: 1rem;
 }
 
 .FunFactsImage {
-    width: 200px;
-    height: 200px;
+    width: 12em;
+    height: 12em;
     border-radius: 20%;
 }
 
 .PlaylistContainer {
-    border: 2px solid rgb(0,0,0);
+    border: .2rem solid rgb(0,0,0);
     display: flex;
     flex-direction: column;
     justify-content: right;
-    height: 1000px;
-    width: 500px;
+    height: 62rem;
+    width: 30rem;
     color: peru;
     background-color: aquamarine;
     opacity: .88;
-    border-radius: 25px;
+    border-radius: 2rem;
     text-align: center;   
 }
 
@@ -62,16 +62,16 @@
     margin-bottom: .22rem;
     color: peru;
     font-weight: bold;
-    font-size: 50px;
-    padding: 5px;
+    font-size: 3rem;
+    padding: .5rem;
     max-width: 100%;
   }
   
 .PlaylistContainer a {
     font-weight: 300;
-    padding: 10px;
+    padding: .2rem;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: bold;
     font-style: italic;
     max-width: 100%;
@@ -86,13 +86,116 @@
 .header h4 {
     color: white;
     z-index: 1;
-    padding: 5px;
     box-shadow: inset 0 0 0 0 white;   
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-
-.header h4:hover {
-  box-shadow: inset 100px 0 0 0 white;
-  color: white;
+    transition: color .8s ease-in-out, box-shadow .8s ease-in-out;
+    padding: .4rem;
+  }
+  
+  .header h4:hover {
+  box-shadow: inset 100rem 0 0 0 white;
+  color: black;
   cursor: pointer;
-}
+  }
+
+
+@media only screen and (max-device-width: 414px) and (orientation: portrait) {
+    .FunFactsContainer {
+        background-image: url("Brady\ Photo\ no2.PNG");
+        background-attachment: fixed;
+        background-position: center;
+        padding: 9rem;
+        display: flex;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        justify-content: center;
+    }
+    
+    .FunFactsBox {
+        border: .2rem solid rgb(0, 0, 0);
+        border-radius: 2rem;
+        padding: .2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column; 
+        background-color: #7b19cc; 
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem; 
+        color: azure;
+        opacity: .95;
+        height: 62rem; 
+        width: 30rem;
+        vertical-align: middle;
+        margin-right: 5rem;
+    }
+    
+    
+    .FunFactsBox p {
+        padding: 1.1rem;
+        font-size: 1rem;
+    }
+    
+    .FunFactsImage {
+        width: 12em;
+        height: 12em;
+        border-radius: 20%;
+    }
+    
+    .PlaylistContainer {
+        border: .2rem solid rgb(0,0,0);
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        height: 62rem;
+        width: 30rem;
+        color: peru;
+        background-color: aquamarine;
+        opacity: .88;
+        border-radius: 2rem;
+        text-align: center;   
+    }
+    
+     .PlaylistContainer h2 {
+        margin-bottom: .22rem;
+        color: peru;
+        font-weight: bold;
+        font-size: 3rem;
+        padding: .5rem;
+        max-width: 100%;
+      }
+      
+    .PlaylistContainer a {
+        font-weight: 300;
+        padding: .2rem;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-style: italic;
+        max-width: 100%;
+      }
+    
+    .header {
+        background-color: white;
+        justify-content: right;
+        display: flex;
+    }
+    
+    .header h4 {
+        color: white;
+        z-index: 1;
+        box-shadow: inset 0 0 0 0 white;   
+        transition: color .8s ease-in-out, box-shadow .8s ease-in-out;
+        padding: .4rem;
+      }
+      
+      .header h4:hover {
+      box-shadow: inset 100rem 0 0 0 white;
+      color: black;
+      cursor: pointer;
+      }
+    
+  }

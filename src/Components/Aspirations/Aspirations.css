@@ -1,7 +1,7 @@
 .AspirationsContainer {
     background-image: url("Chicago\ View\ Str.jpg");
     background-size: cover;
-    padding: 120px;
+    padding: 8.5rem;
     justify-content: center;
     display: flex;
     position: relative;
@@ -13,32 +13,33 @@
 }
 
 .AspirationsBox {
-    border: 3px solid black;
+    border: .3rem solid black;
     top: 50%;
-    border-radius: 25px;
-    padding: 100px;
+    border-radius: 1.5rem;
+    padding: 6.2rem;
     display: flex;
     justify-content: center;
     align-items: center; 
     flex-direction: column; 
     background-color: #19b7cc; 
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px; 
-    height: 800px; 
-    width: 800px;
+    font-size: 1rem; 
+    height: 50rem; 
+    width: 50rem;
     vertical-align: middle;
     opacity: 95%;
 }
 
 .AspirationsBox ul {
-    margin-left: 50px;
+    margin-left: 3rem;
     font-style: italic;
 }
 
 .AspirationsImage {
-    width: 330px;
-    height: 330px;
+    width: 20rem;
+    height: 20rem;
     border-radius: 20%;
+    border: .2rem solid black;
 }
 
 .header {
@@ -50,13 +51,79 @@
 .header h4 {
     color: white;
     z-index: 1;
-    padding: 5px;
     box-shadow: inset 0 0 0 0 white;   
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-
-.header h4:hover {
-  box-shadow: inset 100px 0 0 0 white;
-  color: white;
+    transition: color .8s ease-in-out, box-shadow .8s ease-in-out;
+    padding: .4rem;
+  }
+  
+  .header h4:hover {
+  box-shadow: inset 100rem 0 0 0 white;
+  color: black;
   cursor: pointer;
-}
+  }
+
+  @media only screen and (max-device-width: 414px) and (orientation: portrait) {
+    .AspirationsContainer {
+        background-image: url("Chicago\ View\ Str.jpg");
+        background-size: cover;
+        padding: 8.5rem;
+        justify-content: center;
+        display: flex;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    
+    .AspirationsBox {
+        border: .3rem solid black;
+        top: 50%;
+        border-radius: 1.5rem;
+        padding: 6.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column; 
+        background-color: #19b7cc; 
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem; 
+        height: 50rem; 
+        width: 50rem;
+        vertical-align: middle;
+        opacity: 95%;
+    }
+    
+    .AspirationsBox ul {
+        margin-left: 3rem;
+        font-style: italic;
+    }
+    
+    .AspirationsImage {
+        width: 20rem;
+        height: 20rem;
+        border-radius: 20%;
+        border: .2rem solid black;
+    }
+    
+    .header {
+        background-color: white;
+        justify-content: right;
+        display: flex;
+    }
+    
+    .header h4 {
+        color: white;
+        z-index: 1;
+        box-shadow: inset 0 0 0 0 white;   
+        transition: color .8s ease-in-out, box-shadow .8s ease-in-out;
+        padding: .4rem;
+      }
+      
+      .header h4:hover {
+      box-shadow: inset 100rem 0 0 0 white;
+      color: black;
+      cursor: pointer;
+      }
+  }
