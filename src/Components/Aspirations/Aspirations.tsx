@@ -51,6 +51,7 @@ export const Aspirations: React.FC<LandingPageProps> = (props) => {
                 <li>CSS</li>
                 <li>SQL</li>
                 <li>C</li>
+                <li>Go</li>
                 <li>Redux</li>
               </ul>
             </p>
