@@ -18,13 +18,13 @@ export const AboutMeBox: React.FC<LandingPageProps> = (props) => {
 
   const downloadResume = () => {
    
-    fetch('Jack Mahoney Resume 2023.pdf').then(response => {
+    fetch('Jack Mahoney Resume 2024.pdf').then(response => {
       response.blob().then(blob => {
         const fileURL = window.URL.createObjectURL(blob);
 
         let link = document.createElement('a');
         link.href = fileURL;
-        link.download = 'Jack Mahoney Resume 2023.pdf';
+        link.download = 'Jack Mahoney Resume 2024.pdf';
         link.click();
       })
     })
